@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>org.backend.todoapp</groupId>
-	<artifactId>backend-todoapp</artifactId>
+	<artifactId>auth-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>backend-todoapp</name>
 	<description>backend-todoapp</description>
