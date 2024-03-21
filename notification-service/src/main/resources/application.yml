@@ -2,5 +2,5 @@ spring:
   application:
     name: notification-service
 
-server:
-  port: 8081
+  config:
+    import: configserver:http://localhost:8888
