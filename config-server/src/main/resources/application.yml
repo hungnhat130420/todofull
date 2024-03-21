@@ -6,7 +6,16 @@ spring:
     config:
       server:
         git:
-          uri:
+          uri: https://github.com/hungnhat130420/todofull.git
+          default-label: master
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
 
 server:
   port: 8888
