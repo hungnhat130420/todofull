@@ -1,4 +1,4 @@
-package org.backend.todoapp;
+package org.backend.authservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

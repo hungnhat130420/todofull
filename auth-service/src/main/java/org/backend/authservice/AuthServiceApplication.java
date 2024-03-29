@@ -1,13 +1,13 @@
-package org.backend.todoapp;
+package org.backend.authservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BackendTodoappApplication {
+public class AuthServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BackendTodoappApplication.class, args);
+		SpringApplication.run(AuthServiceApplication.class, args);
 	}
 
 }
