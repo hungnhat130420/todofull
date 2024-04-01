@@ -5,9 +5,11 @@ spring:
   data:
     mongodb:
 #      uri: mongodb://localhost:27017/auth-service
+      authentication-database: admin
+      database: auth-service
       host: localhost
       port: 27017
-      database: auth-service
+
 
 #  security:
 #    user:
