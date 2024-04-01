@@ -6,10 +6,10 @@ spring:
     mongodb:
       uri: mongodb://localhost:27017/auth-service
 
-  security:
-    user:
-      name: user
-      password: password
+#  security:
+#    user:
+#      name: user
+#      password: password
 #    oauth2:
 #      resourceserver:
 #        jwt:
