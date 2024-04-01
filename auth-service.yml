@@ -1,10 +1,13 @@
 server:
   port: 8084
 
-#spring:
-#  data:
-#    mongodb:
+spring:
+  data:
+    mongodb:
 #      uri: mongodb://localhost:27017/auth-service
+      host: localhost
+      port: 27017
+      database: auth-service
 
 #  security:
 #    user:
