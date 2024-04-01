@@ -18,15 +18,15 @@ public class User {
     @Id
     private String id;
     private String username;
-    private String password;
-    private String email;
-    private Set<String> roles;
-    private String providerId;
-    private String provider;
-    private String firstName;
-    private String lastName;
-    private String phoneNumber;
-    private LocalDate dateOfBirth;
-    private LocalDate createdAt;
-    private LocalDate updatedAt;
+//    private String password;
+//    private String email;
+//    private Set<String> roles;
+//    private String providerId;
+//    private String provider;
+//    private String firstName;
+//    private String lastName;
+//    private String phoneNumber;
+//    private LocalDate dateOfBirth;
+//    private LocalDate createdAt;
+//    private LocalDate updatedAt;
 }
