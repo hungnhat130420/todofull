@@ -1,33 +1,27 @@
-package org.backend.authservice.model;
-
+package org.backend.authservice.dto;
 
 import lombok.*;
 import lombok.experimental.FieldDefaults;
-import org.springframework.data.annotation.Id;
-import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.time.LocalDate;
-import java.util.Set;
 
-@Data
+@Getter
+@Setter
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-@FieldDefaults(level = AccessLevel.PRIVATE)
-@Document(collection = "users")
-public class User {
-    @Id
-    String id;
+@FieldDefaults(level = lombok.AccessLevel.PRIVATE)
+public class NewUserDTO {
+
     String username;
     String password;
     String email;
     String providerId;
-    String provider;
     String firstName;
     String lastName;
     String phoneNumber;
     LocalDate dob;
-    Set<String> sharedTodos;
     LocalDate createdAt;
     LocalDate updatedAt;
+
 }
